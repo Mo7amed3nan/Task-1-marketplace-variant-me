@@ -17,7 +17,7 @@ app.use('/api/users', userRoutes);
 
 // Not found
 app.use((req, res) => {
-  res.status(404).json({ message: 'Not Found' });
+  res.status(404).json({ message: 'hi Found' });
 });
 
 // Error handler
